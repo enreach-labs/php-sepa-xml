@@ -62,10 +62,12 @@ class CustomerCreditFacade extends BaseCustomerTransferFileFacade
      *     instructionId?: string,
      *     postCode?: string,
      *     townName?: string,
+     *     streetName?: string,
      *     debtorAdrLine?: string,
      *     buildingNumber?: string,
      *     floorNumber?: string,
      *     debtorCountry?: string,
+     *     debtorAdrLine?: string,
      * } $transferInformation
      * @return CustomerCreditTransferInformation
      * @throws InvalidArgumentException
